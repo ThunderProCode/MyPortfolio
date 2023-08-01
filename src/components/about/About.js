@@ -18,22 +18,21 @@ class About extends Component {
           <h2 className={classes.heading}>Who Am I?</h2>
           <div className={classes.About}>
             <p>
-              My name is <b>SACHIN MITTAL</b> and I am currently working as{' '}
-              <b>Software Developer Engineer</b> at
+              My name is <b>Hector Acosta</b> {' '}
               <b>
                 {' '}
                 <a className={classes.link} target='_blank' href='https://www.springworks.in/'>
-                  Springworks
+                  Snow College
                 </a>
               </b>
-              . I completed my degree in Bachelor of Technology in Computer Science and Engineering
-              from Sant Longowal Institute of Engineering and Technology. I am much interested in
-              developing new things which excite me a lot. :)
+              . I'm a passionate software engineering student at Snow College with an insatiable love for all things tech. 
+              From a young age, I've been immersed in the world of technology, and my curiosity has only grown with time. 
+              I thrive on learning new concepts and mastering the latest tools and languages. 
+              My journey as a tech enthusiast has led me to embark on exciting projects, and I'm always eager to take on new challenges. :)
             </p>
             <p className={classes.br}>
-              I love exploring new technologies and being a practitioner, I like to stay on top of
-              latest trends. I try to leave every line of code I write more readable, accessible,
-              and modular.
+            Through my portfolio, I aim to showcase my journey, experiences, and the innovative projects I've created along the way.
+            Join me on this tech-filled adventure, and let's explore the endless possibilities together.
             </p>
           </div>
         </ScrollAnimation>

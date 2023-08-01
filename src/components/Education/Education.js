@@ -36,19 +36,19 @@ class Education extends Component {
                         </div>
                         <div className={classes.label}>
                           <h2>
-                            Experience <span>July(2021)-Present</span>
+                            Experience <span>January(2018)-December(2022)</span>
                           </h2>
                           <p>
-                            I am currently working as <b>Software Developer Engineer</b> at{' '}
-                            <a target='_blank' href='https://www.springworks.in/'>
-                              <b>Springworks</b>
+                            I had a role as <b>Audiovisuals lead</b> at{' '}
+                            <a target='_blank' href='https://www.facebook.com/soyirg'>
+                              <b>Iglesia Adventista de Rio Grande.</b>
                             </a>{' '}
                             <i>
-                              (previously Springrole and Springworks is a HR technology startup that
-                              is building tools and products to simplify recruiting and help
-                              organizations engage and retain their employees)
+                             I skillfully managed live transmissions of our worship services on popular platforms. Additionally, I took charge of creating compelling content for social media, amplifying the church's outreach and engagement.
+                              I also oversaw and operated the church's audio and visual equipment during in-person gatherings.
+                              I played a pivotal role in enhancing the church's multimedia ministry, leaving a positive impact on both local and digital communities, 
                             </i>{' '}
-                            and boosting my professional skills.
+                            while boosting my professional skills.
                           </p>
                         </div>
                       </article>
@@ -66,16 +66,15 @@ class Education extends Component {
                         </div>
                         <div className={classes.label}>
                           <h2>
-                            Undergraduation at SLIET <span>2017-2021</span>
+                          Software Engineering Student <span>January(2023) - Now</span>
                           </h2>
                           <p>
-                            I completed my undergraduation in CSE (Computer Science and Engineering)
-                            from <a href='http://sliet.ac.in/'>SLIET</a> with overall 82.71%.
+                          Currently enrolled as a passionate Software Engineering student at Snow College, I have nurtured a long-standing love for all things software-related. With an insatiable curiosity and a drive to learn, I eagerly embrace every opportunity to expand my technical expertise and contribute to innovative projects in the tech world.
                           </p>
                         </div>
                       </article>
                     </ScrollAnimation>
-                    <ScrollAnimation
+                    {/* <ScrollAnimation
                       offset={0}
                       animateIn='fadeInLeft'
                       duration={2.4}
@@ -119,7 +118,7 @@ class Education extends Component {
                           <div className={classes.timeline_icon_3 || classes.color_none}></div>
                         </div>
                       </article>
-                    </ScrollAnimation>
+                    </ScrollAnimation> */}
                   </div>
                 </div>
               </div>

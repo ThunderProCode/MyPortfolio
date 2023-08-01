@@ -25,10 +25,10 @@ class Interest extends Component {
               initiallyVisible={true}
             >
               <div className={classes.web}>
-                <h3>APP Develpoment</h3>
+                <h3>Digital Media production</h3>
                 <p>
-                  I have knowledge of flutter development and have experience in building android
-                  and IOS applications. I also have live projects published on Google Play Store.
+                  I have knowledge of Video production in Adobe Premiere Pro and After Effects, I have experience
+                  in creating and managing social media content for a church. 
                 </p>
               </div>
             </ScrollAnimation>
@@ -42,7 +42,7 @@ class Interest extends Component {
               <div className={classes.app}>
                 <h3>Web Develpoment</h3>
                 <p>
-                  I am a full stack web developer(MERN) and build websites using HTML, CSS,
+                  I am a web developer and build websites using HTML, CSS,
                   Javascript, ReactJs.
                   <br /> I have also good grasp on Node and NoSQL(MongoDb).
                 </p>
@@ -61,8 +61,7 @@ class Interest extends Component {
                   I also have decent hand in developing website with WordPress or others CMS as
                   well.
                   <br />
-                  Redux, GraphQL, Next.js, Problem solving, Github are my fields of interest.
-                  Currently, I am investing my free time in Web3.js
+                  Web development, and App Development are my fields of interest.
                 </p>
               </div>
             </ScrollAnimation>

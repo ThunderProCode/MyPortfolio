@@ -1,66 +1,42 @@
 import React from 'react';
 import classes from './Projects.module.css';
-import bookheap from '../images/bookheap.png';
-import chess from '../images/chess.png';
-import shopping from '../images/shopping-app.png';
-import travel from '../images/travel-log.png';
-import definition from '../images/definition.png';
-import memes from '../images/memes.png';
-import superhero from '../images/superhero.png';
+import restaurant from '../images/restaurant.jpg';
+import rickandmorty from '../images/rickandmorty.jpg';
+import weather from '../images/weatherapp.jpg';
+import todo from '../images/todoapp.jpg';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
 // Web projects
 const cardItem = [
   {
-    link: 'https://bookheap-app.netlify.app/',
-    title: 'Online Book Store',
-    techStack: 'Tech Stack: MERN Stack',
-    desc: 'It is a book selling web app built in a MERN stack . You can sell books by uploading images and can also see what others are selling.',
-    image: bookheap
+    link: 'https://thunderprocode.github.io/Gericht-Restaurant/',
+    title: 'Restaurant Landing Page',
+    techStack: 'React',
+    desc: 'Discover an immersive interface, seamless navigation, and enticing visuals that invite users to explore the restaurant.',
+    image: restaurant
   },
   {
-    link: 'https://chess-web-online.netlify.app/',
-    title: 'Realtime Online Chess',
-    techStack: 'Tech Stack- ReactJs, NodeJS, Express, Socket.io.',
-    desc: 'Play real time chess with your friends online by sharing a link.',
-    image: chess
+    link: 'https://rick-and-morty-rho-five.vercel.app/',
+    title: 'Rick and Morty Characters',
+    techStack: 'React',
+    desc: 'This React App Connects to the Rick and Morty API, allowing users to search and discover character info effortlessly.',
+    image: rickandmorty
   },
   {
-    link: 'https://travel-log-frontend-two.vercel.app/',
-    title: 'Travel Log',
-    techStack: 'Tech Stack- MERN Stack, Mapbox',
-    desc: 'A full stack application to store / list places you have visited. You can log every visit on map.',
-    image: travel
+    link: 'https://thunderprocode.github.io/Weather-App/',
+    title: 'Weather App',
+    techStack: 'React, Bootstrap',
+    desc: 'This React app connects to a weather API, and users can easily search and access real-time weather data for any city worldwide.',
+    image: weather
   },
   {
-    link: 'https://shopnowhere.netlify.app/',
-    title: 'Shopping-Store',
-    techStack: 'Tech Stack- React, Redux, Formik',
-    desc: 'Shopping store built with React and Redux',
-    image: shopping
+    link: 'https://thunderprocode.github.io/Todo-App/',
+    title: 'Todo-List',
+    techStack: 'React, Bootstrap',
+    desc: 'Stay organized and productive with this feature-rich React Todo List app! Seamlessly manage your tasks with the ability to add, remove, update, and mark todos as completed.',
+    image: todo
   },
-  {
-    link: 'https://play.google.com/store/apps/details?id=com.thesachin.your_dictionary',
-    title: 'Definition Finder',
-    techStack: 'Tech Stack: Flutter',
-    desc: 'Definition Finder is absolutely free online dictionary with every word you look up. Millions of definitions from the most trusted source.',
-    image: definition
-  },
-  {
-    link: 'https://play.google.com/store/apps/details?id=com.thesachin.superheroes',
-    title: 'My Superhero',
-    techStack: 'Tech Stack- Flutter',
-    desc: 'My SuperHero app provides all SuperHeroes and Villians data like powerstats, full name from all the universes.',
-    image: superhero
-  },
-  {
-    link: 'https://play.google.com/store/apps/details?id=com.thesachin.memestemplate',
-    title: 'Indian Memes Templates',
-    techStack: 'Tech Stack- Flutter',
-    desc: ' Indian meme templates - Memeशाला contains a wide range of Indian meme templates including Bollywood, political, Indian shows. You can edit and create memes too.',
-    image: memes
-  }
 ];
 
 export default function Projects() {
@@ -102,12 +78,6 @@ export default function Projects() {
             return getProjectCard(item);
           })}
         </ul>
-        {/* <h2 className={classes.heading}>ANDROID APP PROJECTS</h2>
-        <ul className={classes.cards}>
-          {cardItemApps.map((item) => {
-            return getProjectCard(item);
-          })}
-        </ul> */}
       </ScrollAnimation>
     </div>
   );

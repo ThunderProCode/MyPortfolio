@@ -28,9 +28,9 @@ class CarouselImages extends Component {
           <div className={classes.image_container}>
             <img className={classes.image} src={Hello} alt='myImage' />
             <div className={classes.h1}>
-              <h1>I'm Sachin</h1>
+              <h1>I'm Hector</h1>
               <a
-                href='https://drive.google.com/file/d/1XwQYRl06QtuNPT8v4fHkbajk1ll9LTbi/view?usp=sharing'
+                href='https://drive.google.com/file/d/1xjNEmH5tmAE52EFc1Fr6fQM-elaEzRhO/view?usp=sharing'
                 rel='opener noreferrer'
                 target='_blank'
               >
@@ -50,15 +50,6 @@ class CarouselImages extends Component {
               >
                 VIEW REACT PROJECTS <GoProject />
               </a>
-              <div className={classes.secondButton}>
-                <a
-                  href='https://github.com/mittalsam98?tab=repositories&q=&type=&language=dart&sort='
-                  rel='opener noreferrer'
-                  target='_blank'
-                >
-                  VIEW ANDROID PROJECTS <GoProject />
-                </a>
-              </div>
             </div>
           </div>
         </Carousel>
