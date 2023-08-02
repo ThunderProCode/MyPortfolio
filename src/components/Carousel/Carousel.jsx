@@ -44,7 +44,7 @@ class CarouselImages extends Component {
               <h1> I love building</h1>
               <h1>THINGS!!</h1>
               <a
-                href='https://github.com/ThunderProCode/MyPortfolio.git'
+                href='https://github.com/ThunderProCode'
                 rel='opener noreferrer'
                 target='_blank'
               >
