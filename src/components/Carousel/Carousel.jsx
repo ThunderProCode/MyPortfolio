@@ -48,7 +48,7 @@ class CarouselImages extends Component {
                 rel='opener noreferrer'
                 target='_blank'
               >
-                VIEW REACT PROJECTS <GoProject />
+                VIEW PROJECTS <GoProject />
               </a>
             </div>
           </div>
