@@ -69,7 +69,7 @@ class Sidebar extends Component {
             </li>
             <li className='sidebar-nav-icons'>
               <a
-                href='https://www.linkedin.com/in/hector-acosta-najera-6a3643144/?locale=en_US'
+                href='https://www.linkedin.com/in/hector-acosta-swe/'
                 rel='opener noreferrer'
                 target='_blank'
                 className='fa fas fa-linkedin fa-lg'
