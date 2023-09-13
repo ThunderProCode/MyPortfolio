@@ -4,11 +4,19 @@ import restaurant from '../images/restaurant.jpg';
 import rickandmorty from '../images/rickandmorty.jpg';
 import weather from '../images/weatherapp.jpg';
 import todo from '../images/todoapp.jpg';
+import tictactoe from '../images/tictactoe.jpg';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
 // Web projects
 const cardItem = [
+  {
+    link: 'https://github.com/ThunderProCode/CS-1400-Final-Project',
+    title: 'TCP Protocol Tic Tac Toe',
+    techStack: '.net',
+    desc: 'The project is a C# console-based Tic Tac Toe game with a client-server architecture. The game allows two players to play against each other, with both players acting as clients that connect to a local server.',
+    image: tictactoe
+  },
   {
     link: 'https://thunderprocode.github.io/Gericht-Restaurant/',
     title: 'Restaurant Landing Page',
@@ -36,7 +44,7 @@ const cardItem = [
     techStack: 'React, Bootstrap',
     desc: 'Stay organized and productive with this feature-rich React Todo List app! Seamlessly manage your tasks with the ability to add, remove, update, and mark todos as completed.',
     image: todo
-  },
+  }
 ];
 
 export default function Projects() {
